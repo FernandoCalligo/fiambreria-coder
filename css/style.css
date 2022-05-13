@@ -3,55 +3,33 @@
     margin: 0;
 }
 
-.header__nav {
-    display: flex;
+.bgper{
     background-color: #8b001a;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    width: 100%;
 }
 
-.header__logo{
-    font-family: 'Pacifico', cursive;
-    text-decoration: none;
-    padding-left: 2rem;
-    font-size: 3.2rem;
-    color: #fff;
-}
-
-h1{
+.navbrand {
     color: #fff;
     font-family: 'Pacifico', cursive;
     font-size: 3rem;
 }
 
-.header__nav ul{
-    display: flex;
-    align-items: flex-end;
-    text-align: end;
-    list-style: none;
-    margin-right: 2.7rem;
-}
-.header__navLista{
-    border-radius: 3px;
-}
-
-.header__navA {
-    text-decoration: none;
-    padding: 0.8rem;
+.navbrand:hover{
     color: #fff;
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
-    font-size: 1.2rem;
 }
 
-.header__navA:hover{
+.navA {
+    font-family: 'lato', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    margin-right: 15px;
+    font-size: 1rem;
+}
+
+.navA:hover{
     background-color: #fff;
     color: #8b001a;
-    transition: 200ms;
 }
+
 
 .portprin {
     margin: 1.5rem;
@@ -303,10 +281,12 @@ h1{
     font-weight: bold;
     color: #fff;
     margin-right: 1.8rem;
+    margin-top: 5px;
 }
 
 .neswletter__email {
     width: 400px;
+    padding: 0.6rem;
     border: none;
 }
 
@@ -315,6 +295,7 @@ h1{
     padding: 1rem;
     margin-left: 1.25rem;
     background-color: #fff;
+    border: none;
 }
 
 @media (max-width: 812px) {
@@ -327,6 +308,7 @@ h1{
     
     .newsletter p {
         text-align: center;
+        margin: 0;
     }
     
     .neswletter__email {
@@ -403,7 +385,7 @@ h4 {
         margin-bottom: 2rem;
         padding: 1.25rem;
         border: 2px dashed #8b001a;
-        width: 60vw;
+        width: 80vw;
     
     }
     
@@ -427,7 +409,7 @@ h4 {
         border: 2px dashed #8b001a;
     }
     .productos__card__img {
-        width: 22vw;
+        width: 20vw;
         height: 30vh;
         object-fit: cover;
     }
