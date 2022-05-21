@@ -14,10 +14,10 @@
   color: #fff; }
 
 .navA {
-  font-family: 'lato', sans-serif;
+  font-family: "lato", sans-serif;
   font-weight: bold;
   color: #fff;
-  margin-right: 15px;
+  margin-right: 1rem;
   font-size: 1rem; }
 
 .navA:hover {
@@ -42,12 +42,12 @@
     text-align: center; }
     .portprin__portadaInfo h2 {
       color: #fff;
-      font-family: 'Lato', sans-serif;
+      font-family: "lato", sans-serif;
       font-size: 3.2rem;
       margin-bottom: 3.2rem; }
     .portprin__portadaInfo a {
       text-decoration: none;
-      font-family: 'Lato', sans-serif;
+      font-family: "lato", sans-serif;
       font-size: 1.5rem;
       font-weight: bold;
       text-transform: uppercase;
@@ -98,11 +98,11 @@
     border-bottom: 3px solid #8b001a;
     width: 80%; }
     .ofertas__text p {
-      font-family: 'lato', sans-serif;
+      font-family: "lato", sans-serif;
       font-size: 2.5rem;
       text-align: center; }
     .ofertas__text a {
-      font-family: 'lato', sans-serif;
+      font-family: "lato", sans-serif;
       font-size: 1.5rem;
       text-decoration: none;
       text-transform: uppercase;
@@ -118,6 +118,11 @@
 
 .ofertascard {
   margin: 2rem; }
+  .ofertascard h3 {
+    font-family: "lato", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem; }
 
 .col {
   display: flex;
@@ -127,7 +132,7 @@
 .btnbgcolor {
   background-color: #8b001a;
   color: #fff;
-  font-family: 'lato', sans-serif;
+  font-family: "lato", sans-serif;
   text-transform: uppercase;
   border: 2px solid #8b001a; }
   .btnbgcolor:hover {
@@ -140,12 +145,12 @@
   background-color: #8b001a;
   padding: 3.15rem; }
   .newsletter p {
-    font-family: 'lato', sans-serif;
+    font-family: "lato", sans-serif;
     font-size: 1.8rem;
     font-weight: bold;
     color: #fff;
     margin-right: 1.8rem;
-    margin-top: 5px; }
+    margin-top: 0.4rem; }
   .newsletter__email {
     width: 400px;
     padding: 0.6rem;
@@ -162,19 +167,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center; }
-  .newsletter p {
-    text-align: center;
-    margin: 0; }
-  .neswletter__email {
-    width: 100%;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    padding: 8px; }
-  .newsletter__submit {
-    color: #8b001a;
-    padding: 10px;
-    margin-left: 0;
-    width: 100%; } }
+    .newsletter p {
+      text-align: center;
+      margin: 0; }
+    .newsletter__email {
+      width: 100%;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      padding: 8px; }
+    .newsletter__submit {
+      color: #8b001a;
+      padding: 1rem;
+      margin-left: 0;
+      width: 100%; } }
 
 .productos__text {
   display: flex;
@@ -184,7 +189,7 @@
   margin-top: 5rem; }
 
 .productos h2 {
-  font-family: 'lato', sans-serif;
+  font-family: "lato", sans-serif;
   font-size: 2.5rem;
   font-weight: bold; }
 
@@ -201,16 +206,11 @@
   border: 2px dashed #8b001a; }
 
 .productos h4 {
-  font-family: 'Lato', sans-serif;
+  font-family: "lato", sans-serif;
   font-weight: bold;
   font-size: 1.75rem;
   text-align: center;
   padding-top: 2rem; }
-
-.productos__card__img {
-  width: 300px;
-  height: 300px;
-  object-fit: cover; }
 
 .productos__card__img {
   width: 300px;
@@ -264,12 +264,11 @@ footer {
   display: flex;
   flex-direction: column;
   margin-top: 1.25rem; }
-
-.footer__containerinfo span {
-  font-family: 'lato', sans-serif;
-  font-size: 1.25rem;
-  color: #fff;
-  padding: 1rem; }
+  .footer__containerinfo span {
+    font-family: "lato", sans-serif;
+    font-size: 1.25rem;
+    color: #fff;
+    padding: 1rem; }
 
 .footer__containercopy {
   display: flex;
@@ -277,7 +276,7 @@ footer {
   margin: 3rem; }
 
 .copyright {
-  font-family: 'lato', sans-serif;
+  font-family: "lato", sans-serif;
   font-size: 1rem;
   color: #fff;
   padding: 1rem; }
@@ -285,17 +284,23 @@ footer {
 .footer__containersocial {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
   margin: 1.5rem; }
 
-.footer__containersocial span {
-  font-family: 'lato', sans-serif;
+footer span {
+  font-family: "lato", sans-serif;
   font-size: 1.25rem;
   color: #fff;
   padding: 1rem; }
 
-.footer__containersociallink img {
+footer img {
   width: 50px;
   height: 50px; }
+
+.qrcode img {
+  width: 60vw;
+  height: 60vh; }
 
 .contport {
   height: 300px; }
@@ -316,7 +321,7 @@ footer {
     text-align: center; }
     .contport__portadaInfo h2 {
       color: #fff;
-      font-family: 'Lato', sans-serif;
+      font-family: "lato", sans-serif;
       font-size: 3rem;
       margin-bottom: 6rem;
       text-transform: uppercase;
@@ -334,7 +339,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'lato', sans-serif; }
+  font-family: "lato", sans-serif; }
   .formulario__content {
     border: 2px solid #8b001a;
     padding: 2rem; }
@@ -383,7 +388,7 @@ footer {
     text-align: center; }
     .fiamport__portadaInfo h2 {
       color: #fff;
-      font-family: 'Lato', sans-serif;
+      font-family: "lato", sans-serif;
       font-size: 3rem;
       margin-bottom: 6rem;
       text-transform: uppercase;
@@ -392,7 +397,7 @@ footer {
 .catalago {
   padding-left: 6rem;
   padding-right: 6rem;
-  font-family: 'lato', sans-serif; }
+  font-family: "lato", sans-serif; }
   .catalago__cont {
     display: grid;
     grid-template-areas: "gruno grdos grtres" "grcuatro grcinco grseis";
@@ -413,6 +418,19 @@ footer {
       .catalago__contproducto img:hover {
         transform: translateY(-10px);
         box-shadow: 1px 1px 17px 9px rgba(0, 0, 0, 0.19); }
+    .catalago__contproducto h4 {
+      font-family: "lato", sans-serif;
+      font-weight: bold;
+      color: #8b001a;
+      font-size: 1.5rem;
+      padding-top: 1rem;
+      text-align: center; }
+    .catalago__contproducto span {
+      font-family: "lato", sans-serif;
+      font-weight: bold;
+      color: #8b001a;
+      font-size: 1rem;
+      text-align: center; }
 
 .g1 {
   grid-area: gruno; }
@@ -434,15 +452,15 @@ footer {
 
 @media (min-width: 320px) and (max-width: 540px) {
   .catalago__cont {
-    grid-template-areas: "gruno grdos" "grtres grcuatro" "grcinco grseis";
+    grid-template-areas: "gruno" "grdos" "grtres" "grcuatro"  "grseis";
     margin: 0;
     padding: 0; }
   .catalago__contproducto {
     margin: 0;
     margin-top: 1rem; }
   .catalago__contproducto img {
-    width: 40vw;
-    height: 20vh; }
+    width: 70vw;
+    height: 30vh; }
   .catalago__contproducto span {
     padding: 1rem; } }
 
@@ -479,7 +497,7 @@ footer {
     text-align: center; }
     .quesport__portadaInfo h2 {
       color: #fff;
-      font-family: 'Lato', sans-serif;
+      font-family: "lato", sans-serif;
       font-size: 3rem;
       margin-bottom: 6rem;
       text-transform: uppercase;
@@ -504,7 +522,7 @@ footer {
     text-align: center; }
     .tablaport__portadaInfo h2 {
       color: #fff;
-      font-family: 'Lato', sans-serif;
+      font-family: "lato", sans-serif;
       font-size: 3rem;
       margin-bottom: 6rem;
       text-transform: uppercase;
@@ -529,7 +547,7 @@ footer {
     text-align: center; }
   .tiendaport h2 {
     color: #fff;
-    font-family: 'Lato', sans-serif;
+    font-family: "lato", sans-serif;
     font-size: 3rem;
     margin-bottom: 6rem;
     text-transform: uppercase;
@@ -539,7 +557,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  font-family: 'lato', sans-serif;
+  font-family: "lato", sans-serif;
   margin: 6rem; }
   .sobrenos h3 {
     font-size: 3rem; }
@@ -588,7 +606,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'lato', sans-serif; }
+  font-family: "lato", sans-serif; }
   .tienda__cont {
     display: flex;
     flex-direction: row;
@@ -699,7 +717,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: 'lato', sans-serif;
+  font-family: "lato", sans-serif;
   margin-top: 6rem; }
   .productosrel h3 {
     text-align: center;
@@ -720,11 +738,10 @@ footer {
     padding: 1.25rem; }
     .productosrel__contproducto h4 {
       margin-bottom: 1rem; }
-
-.productosrel__contproducto img {
-  width: 20vw;
-  height: 35vh;
-  border-radius: 12px; }
+    .productosrel__contproducto img {
+      width: 20vw;
+      height: 35vh;
+      border-radius: 12px; }
 
 @media (min-width: 320px) and (max-width: 540px) {
   .productosrel {

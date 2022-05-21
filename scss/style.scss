@@ -20,10 +20,10 @@
 }
 
 .navA {
-    font-family: 'lato', sans-serif;
+    font-family: $fontprincial;
     font-weight: bold;
     color: $color_letraclara;
-    margin-right: 15px;
+    margin-right: 1rem;
     font-size: 1rem;
 }
 
@@ -53,13 +53,13 @@
         text-align: center;
         h2{
             color: $color_letraclara;
-            font-family: 'Lato', sans-serif;
+            font-family: $fontprincial;
             font-size: 3.2rem;
             margin-bottom: 3.2rem;
         }
         a{
             text-decoration: none;
-            font-family: 'Lato', sans-serif;
+            font-family: $fontprincial;
             font-size: 1.5rem;
             font-weight: bold;
             text-transform: uppercase;
@@ -121,12 +121,12 @@
         border-bottom: 3px solid $color_prin;
         width: 80%;
         p {
-            font-family: 'lato', sans-serif;
+            font-family: $fontprincial;
             font-size: 2.5rem;
             text-align: center;
         }
         a {
-            font-family: 'lato', sans-serif;
+            font-family: $fontprincial;
             font-size: 1.5rem;
             text-decoration: none;
             text-transform:uppercase;
@@ -146,6 +146,12 @@
 
 .ofertascard{
     margin: 2rem;
+    h3 {
+        font-family: $fontprincial;
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding: 1rem;
+    }
 }
 
 .col{
@@ -153,10 +159,11 @@
     justify-content: center;
     margin-bottom: 1rem;
 }
+
 .btnbgcolor {
     background-color: $color_prin;
     color: $color_letraclara;
-    font-family: 'lato', sans-serif;
+    font-family: $fontprincial;
     text-transform: uppercase;
     border: 2px solid $color_prin;
     &:hover {
@@ -171,12 +178,12 @@
     background-color: $color_prin;
     padding: 3.15rem;
     p{
-        font-family: 'lato', sans-serif;
+        font-family: $fontprincial;
         font-size: 1.8rem;
         font-weight: bold;
         color: $color_letraclara;
         margin-right: 1.8rem;
-        margin-top: 5px;
+        margin-top: 0.4rem;
     }
     &__email {
         width: 400px;
@@ -197,23 +204,23 @@
         flex-direction: column;
         justify-content: center;
         align-items: center; 
+        p {
+            text-align: center;
+            margin: 0;  
+        }
+        &__email{
+            width: 100%;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            padding: 8px;  
+        }
+        &__submit{
+            color: $color_prin;
+            padding: 1rem;
+            margin-left: 0;
+            width: 100%; 
+        }
     }
-    .newsletter p {
-        text-align: center;
-        margin: 0; 
-    }
-    .neswletter__email {
-        width: 100%;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        padding: 8px; 
-    }
-    .newsletter__submit {
-        color: $color_prin;
-        padding: 10px;
-        margin-left: 0;
-        width: 100%; 
-    } 
 }
 
 .productos{
@@ -225,7 +232,7 @@
         margin-top: 5rem;
     }
     h2 {
-        font-family: 'lato', sans-serif;
+        font-family: $fontprincial;
         font-size: 2.5rem;
         font-weight: bold;
     }
@@ -242,7 +249,7 @@
         border: 2px dashed $color_prin;
     }
     h4{
-        font-family: 'Lato', sans-serif;
+        font-family: $fontprincial;
         font-weight: bold;
         font-size: 1.75rem;
         text-align: center;
@@ -253,12 +260,6 @@
         height: 300px;
         object-fit: cover;
     }
-}
-
-.productos__card__img{
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
 }
 
 footer {
@@ -300,7 +301,7 @@ footer {
     .productos__card {
       margin-bottom: 1rem;
       padding: 1rem;
-      border: 2px dashed #8b001a; 
+      border: 2px dashed $color_prin; 
     }
     .productos__card__img {
       width: 20vw;
@@ -319,12 +320,12 @@ footer {
     display: flex;
     flex-direction: column;
     margin-top: 1.25rem;
-}
-.footer__containerinfo span {
-    font-family: 'lato', sans-serif;
-    font-size: 1.25rem;
-    color: #fff;
-    padding: 1rem;
+    span {
+        font-family: $fontprincial;
+        font-size: 1.25rem;
+        color: $color_letraclara;
+        padding: 1rem;
+    }
 }
 
 .footer__containercopy {
@@ -334,7 +335,7 @@ footer {
 }
 
 .copyright {
-    font-family: 'lato', sans-serif;
+    font-family: $fontprincial;
     font-size: 1rem;
     color: $color_letraclara;
     padding: 1rem;
@@ -343,19 +344,26 @@ footer {
 .footer__containersocial {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
     margin: 1.5rem;
 }
 
-.footer__containersocial span {
-    font-family: 'lato', sans-serif;
+footer span {
+    font-family: $fontprincial;
     font-size: 1.25rem;
     color: $color_letraclara;
     padding: 1rem;
 }
 
-.footer__containersociallink img {
+footer img {
     width: 50px;
     height: 50px;
+}
+
+.qrcode img {
+    width: 60vw;
+    height: 60vh;
 }
 
 .contport {
@@ -380,7 +388,7 @@ footer {
         text-align: center;
         h2 {
             color: $color_letraclara;
-            font-family: 'Lato', sans-serif;
+            font-family: $fontprincial;
             font-size: 3rem;
             margin-bottom: 6rem;
             text-transform: uppercase;
@@ -403,7 +411,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'lato', sans-serif;
+    font-family: $fontprincial;
     &__content{
         border: 2px solid $color_prin;
         padding: 2rem;
@@ -463,8 +471,8 @@ footer {
         max-width: 500px;
         text-align: center;
         h2 {
-            color: #fff;
-            font-family: 'Lato', sans-serif;
+            color: $color_letraclara;
+            font-family: $fontprincial;
             font-size: 3rem;
             margin-bottom: 6rem;
             text-transform: uppercase;
@@ -477,7 +485,7 @@ footer {
 .catalago{
     padding-left: 6rem;
     padding-right: 6rem;
-    font-family: 'lato', sans-serif;
+    font-family: $fontprincial;
 
     &__cont{
         display: grid;
@@ -502,6 +510,21 @@ footer {
                 transform: translateY(-10px);
                 box-shadow: 1px 1px 17px 9px rgba(0,0,0,0.19);
             }
+        }
+        h4 {
+            font-family: $fontprincial;
+            font-weight: bold;
+            color: $color_prin;
+            font-size: 1.5rem;
+            padding-top: 1rem;
+            text-align: center;
+        }
+        span {
+            font-family: $fontprincial;
+            font-weight: bold;
+            color: $color_prin;
+            font-size: 1rem;
+            text-align: center;
         }
     }
 }
@@ -532,9 +555,11 @@ footer {
 
 @media (min-width: 320px) and (max-width: 540px) {
     .catalago__cont {
-        grid-template-areas:"gruno grdos"
-                            "grtres grcuatro"
-                            "grcinco grseis";
+        grid-template-areas:"gruno"
+                            "grdos"
+                            "grtres"
+                            "grcuatro" 
+                            "grseis";
         margin: 0;
         padding: 0; 
     }
@@ -543,11 +568,11 @@ footer {
         margin-top: 1rem; 
     }
     .catalago__contproducto img {
-        width: 40vw;
-        height: 20vh; 
+        width: 70vw;
+        height: 30vh; 
     }
     .catalago__contproducto span {
-      padding: 1rem; 
+        padding: 1rem; 
     } 
 }
   
@@ -594,7 +619,7 @@ footer {
         text-align: center;
         h2 {
             color: $color_letraclara;
-            font-family: 'Lato', sans-serif;
+            font-family: $fontprincial;
             font-size: 3rem;
             margin-bottom: 6rem;
             text-transform: uppercase;
@@ -625,7 +650,7 @@ footer {
         text-align: center;
         h2 {
             color: $color_letraclara;
-            font-family: 'Lato', sans-serif;
+            font-family: $fontprincial;
             font-size: 3rem;
             margin-bottom: 6rem;
             text-transform: uppercase;
@@ -657,7 +682,7 @@ footer {
     }
     h2 {
         color: $color_letraclara;
-        font-family: 'Lato', sans-serif;
+        font-family: $fontprincial;
         font-size: 3rem;
         margin-bottom: 6rem;
         text-transform: uppercase;
@@ -669,7 +694,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    font-family: 'lato', sans-serif;
+    font-family: $fontprincial;
     margin: 6rem;
     h3 {
         font-size: 3rem;
@@ -731,7 +756,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'lato', sans-serif;
+    font-family: $fontprincial;
     &__cont {
         display: flex;
         flex-direction: row;
@@ -870,14 +895,14 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'lato', sans-serif;
+    font-family: $fontprincial;
     margin-top: 6rem;
     h3 {
         text-align: center;
         font-size: 2rem;
         padding: 1rem;
         margin-top: 3rem;
-        border-top: 2px solid #8b001a;
+        border-top: 2px solid $color_prin;
         width: 85%;
     }
     &__cont {
@@ -894,13 +919,12 @@ footer {
         h4 {
             margin-bottom: 1rem; 
         }
+        & img {
+            width: 20vw;
+            height: 35vh;
+            border-radius: 12px; 
+        }
     }
-}
-
-.productosrel__contproducto img {
-    width: 20vw;
-    height: 35vh;
-    border-radius: 12px; 
 }
   
 @media (min-width: 320px) and (max-width: 540px) {
