@@ -15,7 +15,7 @@
     width: 100%;
     max-width: 500px;
     text-align: center; }
-    .contport__portadaInfo h2 {
+    .contport__portadaInfo h1 {
       color: #fff;
       font-family: "lato", sans-serif;
       font-size: 3rem;
@@ -39,7 +39,7 @@
     width: 100%;
     max-width: 500px;
     text-align: center; }
-    .fiamport__portadaInfo h2 {
+    .fiamport__portadaInfo h1 {
       color: #fff;
       font-family: "lato", sans-serif;
       font-size: 3rem;
@@ -64,7 +64,7 @@
     width: 100%;
     max-width: 500px;
     text-align: center; }
-    .quesport__portadaInfo h2 {
+    .quesport__portadaInfo h1 {
       color: #fff;
       font-family: "lato", sans-serif;
       font-size: 3rem;
@@ -89,7 +89,7 @@
     width: 100%;
     max-width: 500px;
     text-align: center; }
-    .tablaport__portadaInfo h2 {
+    .tablaport__portadaInfo h1 {
       color: #fff;
       font-family: "lato", sans-serif;
       font-size: 3rem;
@@ -114,7 +114,7 @@
     width: 100%;
     max-width: 500px;
     text-align: center; }
-  .tiendaport h2 {
+  .tiendaport h1 {
     color: #fff;
     font-family: "lato", sans-serif;
     font-size: 3rem;
@@ -146,7 +146,7 @@
       .catalago__contproducto img:hover {
         transform: translateY(-10px);
         box-shadow: 1px 1px 17px 9px rgba(0, 0, 0, 0.19); }
-    .catalago__contproducto h4 {
+    .catalago__contproducto h2 {
       font-family: "lato", sans-serif;
       font-weight: bold;
       color: #8b001a;
@@ -248,7 +248,7 @@
     width: 100%;
     max-width: 500px;
     text-align: center; }
-    .portprin__portadaInfo h2 {
+    .portprin__portadaInfo h1 {
       color: #fff;
       font-family: "lato", sans-serif;
       font-size: 3.2rem;
@@ -264,7 +264,7 @@
       border-radius: 15px;
       border: 2px solid #fff; }
 
-@media (max-width: 812px) {
+@media (max-width: 820px) {
   .portprin {
     width: 100%;
     margin: 0;
@@ -326,7 +326,7 @@
 
 .ofertascard {
   margin: 2rem; }
-  .ofertascard h3 {
+  .ofertascard span {
     font-family: "lato", sans-serif;
     font-size: 1.5rem;
     font-weight: bold;
@@ -413,7 +413,7 @@
   padding: 1.25rem;
   border: 2px dashed #8b001a; }
 
-.productos h4 {
+.productos h3 {
   font-family: "lato", sans-serif;
   font-weight: bold;
   font-size: 1.75rem;
@@ -424,16 +424,6 @@
   width: 300px;
   height: 300px;
   object-fit: cover; }
-
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
-  background-color: #8b001a;
-  margin-top: 6rem;
-  height: fit-content; }
 
 @media (min-width: 320px) and (max-width: 820px) {
   .productos__text {
@@ -450,7 +440,7 @@ footer {
     width: 100%;
     height: 100%;
     object-fit: cover; }
-  h4 {
+  h3 {
     padding-top: 1rem; } }
 
 @media (min-width: 821px) and (max-width: 1280px) {
@@ -463,52 +453,58 @@ footer {
     height: 30vh;
     object-fit: cover; } }
 
-.footer__container {
-  display: flex;
-  justify-content: space-around;
-  width: 100%; }
-
-.footer__containerinfo {
-  display: flex;
-  flex-direction: column;
-  margin-top: 1.25rem; }
-  .footer__containerinfo span {
-    font-family: "lato", sans-serif;
-    font-size: 1.25rem;
-    color: #fff;
-    padding: 1rem; }
-
-.footer__containercopy {
-  display: flex;
-  flex-direction: column;
-  margin: 3rem; }
-
-.copyright {
-  font-family: "lato", sans-serif;
-  font-size: 1rem;
-  color: #fff;
-  padding: 1rem; }
-
-.footer__containersocial {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+footer {
+  background-color: #8b001a;
+  margin-top: 5rem;
+  height: 100%;
   text-align: center;
-  margin: 1.5rem; }
+  font-family: "lato", sans-serif; }
 
-footer span {
-  font-family: "lato", sans-serif;
-  font-size: 1.25rem;
+.footerlist {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  width: 100%;
+  padding: 3rem;
+  color: #fff; }
+  .footerlist a {
+    font-size: 1.1rem;
+    padding: 2rem;
+    text-decoration: none;
+    color: #fff; }
+
+.footercont__info {
+  color: #fff; }
+  .footercont__info .contain__info {
+    display: flex;
+    justify-content: center; }
+    .footercont__info .contain__info .info {
+      margin-bottom: 1.5rem;
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      align-items: center; }
+      .footercont__info .contain__info .info span {
+        font-size: 1.2rem;
+        font-weight: bold; }
+      .footercont__info .contain__info .info .socialimg {
+        width: 50px;
+        height: 50px; }
+
+.copy {
   color: #fff;
-  padding: 1rem; }
+  font-size: 1rem;
+  padding: 1rem;
+  padding-top: 1rem; }
 
-footer img {
-  width: 50px;
-  height: 50px; }
-
-.qrcode img {
-  width: 60vw;
-  height: 60vh; }
+@media (min-width: 320px) and (max-width: 820px) {
+  .footerlist {
+    display: none; }
+  .contain__info {
+    flex-direction: column;
+    align-items: center; }
+    .contain__info .info {
+      margin: 1.3rem; } }
 
 .mapa {
   margin: 3rem;
@@ -556,51 +552,42 @@ footer img {
 .sobrenos {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  align-items: center;
   font-family: "lato", sans-serif;
   margin: 6rem; }
   .sobrenos h3 {
-    font-size: 3rem; }
+    font-size: 3rem;
+    border-bottom: 4px solid #8b001a; }
   .sobrenos__cont {
     display: flex;
-    margin-top: 2.5rem;
-    flex-direction: row; }
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2.5rem; }
   .sobrenos p {
     font-size: 1.5rem;
-    text-align: justify;
-    margin: 1.25rem; }
+    text-align: start;
+    margin: 1.25rem;
+    max-width: 75%; }
   .sobrenos img {
     width: 500px;
     height: 300px; }
-  .sobrenos__cont--dif {
-    display: flex;
-    flex-direction: row-reverse;
-    width: 100%;
-    height: 100%; }
 
 @media (min-width: 320px) and (max-width: 820px) {
   .sobrenos {
-    justify-content: center;
     margin: 1rem; }
   .sobrenos h3 {
-    text-align: center;
-    border-bottom: 2px solid black;
+    border-bottom: 4px solid #8b001a;
     padding: 0.5rem; }
-  .sobrenos__cont {
-    flex-direction: column; }
   .sobrenos p {
     font-size: 1.5rem;
-    text-align: justify;
+    text-align: start;
     margin: 0.2rem;
     padding: 1rem; }
   .sobrenos img {
     width: 100%;
-    height: 100%; }
-  .sobrenos__cont--dif {
-    display: flex;
-    flex-direction: column-reverse;
-    text-align: justify;
-    margin-top: 1.2rem; } }
+    height: 100%; } }
 
 .tienda {
   display: flex;
@@ -620,7 +607,7 @@ footer img {
   flex-direction: column;
   align-items: flex-start;
   margin: 1rem; }
-  .tiendacont__info h2 {
+  .tiendacont__info h1 {
     font-size: 2.5rem;
     font-weight: bold; }
   .tiendacont__info span {
@@ -650,8 +637,8 @@ footer img {
   text-transform: uppercase; }
 
 .tienda__cont img {
-  width: 600px;
-  height: 400px;
+  width: 100%;
+  height: 450px;
   padding: 1rem; }
 
 @media (min-width: 320px) and (max-width: 540px) {
@@ -661,7 +648,7 @@ footer img {
   .tiendacont__info {
     margin-left: 0;
     margin: 1.2rem; }
-  .tiendacont__info h2 {
+  .tiendacont__info h1 {
     font-size: 2.5rem;
     font-weight: bold; }
   .tiendacont__info p {
@@ -670,7 +657,7 @@ footer img {
     width: 100%; }
   .tienda__cont img {
     margin-top: 1.5rem;
-    width: 90%;
+    width: 96%;
     height: 100%; }
   .tiendacont__infobtn button {
     padding: 1rem; }
@@ -688,7 +675,7 @@ footer img {
     width: 90vw; }
   .tiendacont__info {
     justify-content: center; }
-  .tiendacont__info h2 {
+  .tiendacont__info h1 {
     font-size: 2.5rem;
     font-weight: bold; }
   .tiendacont__info p {
@@ -719,7 +706,7 @@ footer img {
   align-items: center;
   font-family: "lato", sans-serif;
   margin-top: 6rem; }
-  .productosrel h3 {
+  .productosrel h2 {
     text-align: center;
     font-size: 2rem;
     padding: 1rem;
@@ -736,7 +723,7 @@ footer img {
     flex-direction: column;
     align-items: center;
     padding: 1.25rem; }
-    .productosrel__contproducto h4 {
+    .productosrel__contproducto h3 {
       margin-bottom: 1rem; }
     .productosrel__contproducto img {
       width: 20vw;

@@ -60,7 +60,7 @@
             <div class="portprin__portada">
                 <div class="portprin__portadaCont">
                     <div class="portprin__portadaInfo">
-                        <h2 class="animate__animated animate__bounceInRight" >Mira nuestros mejores Productos</h2>
+                        <h1 class="animate__animated animate__bounceInRight" >Mira nuestros mejores Productos</h1>
                         <a href="paginas/listaproductos.html" >Ver más</a>
                     </div>
                 </div>
@@ -78,7 +78,7 @@
                         <div class="card" style="width: 18rem;">
                             <img src="recursos/quesos/queso fontina italiano.jpg" class="card-img-top" alt="ofertaquesoitaliano">
                             <div class="card-body text-center" style="display:flex ; flex-direction:column; align-items:center;">
-                                <h3>Queso Fontina Italiano</h3>
+                                <span>Queso Fontina Italiano</span>
                                 <a href="paginas/producto.html" class="btn btnbgcolor">Ver Producto</a>
                             </div>
                         </div>
@@ -87,7 +87,7 @@
                         <div class="card" style="width: 18rem;">
                             <img src="recursos/placehorlderqueso.jpg" class="card-img-top" alt="ofertaquesoholandes">
                             <div class="card-body text-center" style="display:flex ; flex-direction:column; align-items:center;">
-                                <h3>Queso Semiduro Holands</h3>
+                                <span>Queso Semiduro Holands</span>
                                 <a href="paginas/producto.html" class="btn btnbgcolor">Ver Producto</a>
                             </div>
                         </div>
@@ -96,7 +96,7 @@
                         <div class="card" style="width: 18rem;">
                             <img src="recursos/fiambres/chorizocoloradoalpino.jpg" class="card-img-top" alt="ofertachorizoalpino">
                             <div class="card-body text-center" style="display:flex ; flex-direction:column; align-items:center;">
-                                <h3>Chorizo colorado Alpino</h3>
+                                <span>Chorizo colorado Alpino</span>
                                 <a href="paginas/producto.html" class="btn btnbgcolor">Ver Producto</a>
                             </div>
                         </div>
@@ -105,7 +105,7 @@
                         <div class="card" style="width: 18rem;">
                             <img src="recursos/fiambres/jamon cocido ahumado.jpg" class="card-img-top" alt="ofertajamonahumado">
                             <div class="card-body text-center" style="display:flex ; flex-direction:column; align-items:center;">
-                                <h3>Jamón cocido ahumado</h3>
+                                <span>Jamón cocido ahumado</span>
                                 <a href="paginas/producto.html" class="btn btnbgcolor">Ver Producto</a>
                             </div>
                         </div>
@@ -126,19 +126,19 @@
                 <div class="productos__card">
                     <a href="paginas/tablaspic.html"><img src="recursos/placeholder.jpg" alt="picadacatalogo" class="productos__card__img"></a>
                     <div>
-                        <h4>Tablas y Picadas</h4>
+                        <h3>Tablas y Picadas</h3>
                     </div>
                 </div>
                 <div class="productos__card">
                     <a href="paginas/quesos.html"><img src="recursos/quesosportadaprincipal.jpg" alt="quesoscatalogo" class="productos__card__img"></a>
                     <div>
-                        <h4>Quesos</h4>
+                        <h3>Quesos</h3>
                     </div>
                 </div>
                 <div class="productos__card">
                     <a href="paginas/fiambres.html"><img src="recursos/picadaportada.jpg" alt="fiambrescatalogo" class="productos__card__img"></a>
                     <div>
-                        <h4>Fiambres</h4>
+                        <h3>Fiambres</h3>
                     </div>
                 </div>
             </div>
@@ -146,25 +146,38 @@
     </main>
 
     <footer>
-        <div class="footer__container">
-            <div class="footer__containerinfo">
-                <span>Dirección: Calle xxx - Localidad - Argentina</span>
-                <span>Telefono: 011 4321 1532</span>
-                <span>Email: Dejamones@gmail.com</span>
-            </div>
-            <div class="footer__containersocial">
-                <div class="footer__containersociallink">
-                    <a href=""><img src="recursos/icons8-facebook-30.png" alt="Facebooksocial"></a>
-                    <a href=""><img src="recursos/icons8-instagram-24.png" alt="Instagramsocial"></a>
-                    <a href=""><img src="recursos/icons8-twitter-30.png" alt="twittersocial"></a>
+        <div class="footercont">
+            <ul class="footerlist">
+                <li><a href="paginas/sobrenos.html">Sobre nosotros</a></li>
+                <li><a href="paginas/contacto.html">Contacto</a></li>
+                <li><a href="paginas/listaproductos.html">Productos</a></li>
+            </ul>
+            <div class="footercont__info">
+                <div class="contain__info">
+                    <div class="info">
+                        <span>Dirección</span>
+                        <p>General Las Heras, Prov. de Bs.As</p>
+                        <span>Teléfono</span>
+                        <p>011 58137221</p>
+                    </div>
+                    <div class="info">
+                        <span>Horarios</span>
+                        <p class="dif">Lunes a viernes</p>
+                        <p>9:30 a 15:00 y 17:00 a 21:00</p>
+                        <p class="dif" >Sabados</p>
+                        <p>9:30 a 13:00 y 18:00 a 20:00</p>
+                        <p class="dif">Domingos cerrado</p>
+                    </div>
+                    <div class="info">
+                        <span>Seguinos</span>
+                        <img class="socialimg" src="recursos/icons8-instagram-24.png" alt="Instagram">
+                        <img class="socialimg" src="recursos/icons8-facebook-30.png" alt="Facebook">
+                    </div>
                 </div>
-                <div class="qr">
-                    <img src="recursos/Codigoqr.png" alt="Códigos QR"/>
-                </div>
             </div>
-        </div>
-        <div class="footer__containercopy">
-            <span class="copyright">Dejamones 2021</span>
+            <div class="copy">
+                <span>&#169 Dejamones 2021</span>
+            </div>
         </div>
     </footer>
 
