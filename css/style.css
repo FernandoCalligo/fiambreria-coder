@@ -347,6 +347,12 @@
     color: #8b001a;
     background-color: #fff; }
 
+.flexper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
 .newsletter {
   display: flex;
   justify-content: center;
@@ -555,7 +561,7 @@ footer {
   align-items: center;
   font-family: "lato", sans-serif;
   margin: 6rem; }
-  .sobrenos h3 {
+  .sobrenos h1 {
     font-size: 3rem;
     border-bottom: 4px solid #8b001a; }
   .sobrenos__cont {
@@ -597,7 +603,6 @@ footer {
   .tienda__cont {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     margin-left: 9rem;
     margin-right: 9rem;
     margin-top: 9rem; }
@@ -617,7 +622,7 @@ footer {
   .tiendacont__info p {
     font-size: 1rem;
     margin-top: 3.5rem;
-    width: 50vw; }
+    max-width: 75%; }
 
 .tiendacont__infobtn {
   margin-top: 5rem; }
@@ -637,8 +642,8 @@ footer {
   text-transform: uppercase; }
 
 .tienda__cont img {
-  width: 100%;
-  height: 450px;
+  width: 35vw;
+  height: 50vh;
   padding: 1rem; }
 
 @media (min-width: 320px) and (max-width: 540px) {
@@ -653,8 +658,7 @@ footer {
     font-weight: bold; }
   .tiendacont__info p {
     font-size: 1.2rem;
-    margin-top: 1.5rem;
-    width: 100%; }
+    margin-top: 1.5rem; }
   .tienda__cont img {
     margin-top: 1.5rem;
     width: 96%;
@@ -680,8 +684,7 @@ footer {
     font-weight: bold; }
   .tiendacont__info p {
     font-size: 1.2rem;
-    margin-top: 1.5rem;
-    width: 100%; }
+    margin-top: 1.5rem; }
   .tienda__cont img {
     margin-top: 2rem;
     width: 90vw; }
